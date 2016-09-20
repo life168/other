@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.inner{width:1140px;margin:0 auto;}
+.header{height:250px;background:url(../images/2.jpg) no-repeat center top;background-size:cover;}
+.header .header-top{height:152px;}
+.header .header-top .left{float:left;width:182px;height:152px;background:#ffad06;}
+.header .header-top .left a h2{color:#fff;font-size:2.7em;line-height:152px;text-align:center;}
+.header .header-top .right{width:912px;height:152px;float:right;}
+.header .right .right-two ul li{float:left;}
+.header-input{width:94px;height:35px;background:#ffad06;border-radius:4px;margin-left:586px;margin-top:21px;color:#fff;float:left;cursor:pointer;font-size:1.0em;transition: all 1s;}
+.header-input:hover{background:#7bcec4;}
+.right-one{height:72px;}
+.right-one p{float:right;padding-top:32px;font-size:1em;color:#fff;}
+.right-two ul li{width:182px;height:72px;background:#fff;position:relative;overflow:hidden;}
+.right-two ul li a{color:#ffad06;font-size:1em;line-height:72px;padding-left:62px;width:182px;height:72px;display:inline-block;}
+.right-two ul li .box{width:182px;height:70px;background:#7bcecb;position:absolute;top:-70px;left:0;color:#ffad06;font-size:1em;line-height:72px;padding-left:62px;display:inline-block;}
+.right-two ul li:hover .box{top:0;left:0;transition:all 1s;}
+.right-two ul li:hover a{color:#fff;}
+
+.main1 h1{line-height:106px;font-size:36px;color:#ffad06;text-align:center;margin-top:40px;}
+.main1 h2{font-size:38px;font-weight:400;line-height:64px;border-bottom:1px solid #eeeeee;}
+.main1-left .one{font-size:30px;padding-top:19px;}
+.main1-left .two{font-size:26px;padding-top:20px;}
+
+.footer{height:143px;background:#000000;padding-bottom:33px;}
+.footer-box1{height:32px;}
+.footer-top{height:39px;}
+.footer-top h2{color:#fff;display:inline-block;font-size:18px;padding-left:15px;padding-right:122px;}
+.footer-top .text{width:562px;height:39px;border-radius:5px;font-size:14px;padding-left:16px;}
+.footer-top .submit{width:165px;height:41px;background:#ffad06;border-radius:5px;text-align:center;line-height:41px;font-size:14px;color:#fff;margin-left:52px;cursor:pointer;}
+.footer-bottom {height:104px;line-height:104px;text-align:center;}
+.footer-bottom p{color:#fff;}
+.footer-bottom span{color:#ffad06;display:inline-block;padding-left:4px;transition:all 1s;}
+.footer-bottom span:hover{color:#fff;}
